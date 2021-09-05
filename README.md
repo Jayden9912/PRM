@@ -6,17 +6,27 @@ Exercises : "Solving a 2D motion planning problem by PRM" and "Post-processing a
 For more information, please refer to http://www.osrobotics.org/osr/
 
 ## Usage
-1. Clone this github repository.\
+1. Create a new file
+```
+mkdir -p ~/src && cd ~/src
+```
+2. Clone this github repository.
 ```
 github clone https://github.com/Jayden9912/PRM.git
 ```
-2. Edit the permission of the file. \
+3. Edit the permission of the shell file.
 ```
 sudo chmod +x run.sh
 ```
-3. Run the code \
+4. Run the code
 ```
 ./run.sh
 ```
 ## What can it do?
-Given static obstacle, initial position and target position, probabilistic roadmap will be created based on the conditions given.\
+Given static obstacle, initial position and target position, probabilistic roadmap will be created based on the conditions given (with pathshorcut enabled).\
+![This is an image](https://github.com/Jayden9912/PRM/blob/main/pic/allPlot.png)
+There are **few options** that can be changed in run.sh. Particularly, the option of **edgePlot** and **pointPlot** should be set to False to reduce the runtime.\
+With edgePlot, pointPlot and **shortcut set to False**:
+![This is an image](https://github.com/Jayden9912/PRM/blob/main/pic/no_shortcut.png)
+With edgePlot, pointPlot set to False, **shortcut set to True**:
+![This is an image](https://github.com/Jayden9912/PRM/blob/main/pic/shortcut1.png)
