@@ -12,7 +12,7 @@ mkdir -p ~/src && cd ~/src
 ```
 2. Clone this github repository.
 ```
-github clone https://github.com/Jayden9912/PRM.git
+git clone https://github.com/Jayden9912/PRM.git
 ```
 3. Edit the permission of the shell file.
 ```
