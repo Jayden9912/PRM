@@ -6,19 +6,15 @@ Exercises : "Solving a 2D motion planning problem by PRM" and "Post-processing a
 For more information, please refer to http://www.osrobotics.org/osr/
 
 ## Usage
-1. Create a new file
+1. Clone this github repository.
 ```
-mkdir -p ~/src && cd ~/src
+git clone https://github.com/Jayden9912/PRM.git && cd PRM
 ```
-2. Clone this github repository.
-```
-git clone https://github.com/Jayden9912/PRM.git
-```
-3. Edit the permission of the shell file.
+2. Edit the permission of the shell file.
 ```
 sudo chmod +x run.sh
 ```
-4. Run the code
+3. Run the code
 ```
 ./run.sh
 ```
