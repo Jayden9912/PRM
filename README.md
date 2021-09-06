@@ -23,6 +23,6 @@ Given static obstacle, initial position and target position, probabilistic roadm
 ![This is an image](https://github.com/Jayden9912/PRM/blob/main/pic/allPlot.png)
 There are **few options** that can be changed in run.sh. Particularly, the option of **edgePlot** and **pointPlot** should be set to False to reduce the runtime.\
 With edgePlot, pointPlot and **shortcut set to False**:
-![This is an image](https://github.com/Jayden9912/PRM/blob/main/pic/no_shortcut.png)
+![This is an image](https://github.com/Jayden9912/PRM/blob/main/pic/no_shortcut_2.png)
 With edgePlot, pointPlot set to False, **shortcut set to True**:
-![This is an image](https://github.com/Jayden9912/PRM/blob/main/pic/shortcut1.png)
+![This is an image](https://github.com/Jayden9912/PRM/blob/main/pic/shortcut_2.png)
